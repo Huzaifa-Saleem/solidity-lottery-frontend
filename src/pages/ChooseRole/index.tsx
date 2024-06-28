@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Button from "../../components/Button";
 import { useRecoilValue, useSetRecoilState } from "recoil";
-import { AccountAtom, User, currentUser } from "../../atoms";
+import { AccountAtom, currentUser } from "../../atoms";
 import useContract from "../../hooks/useContract";
 import { useNavigate } from "react-router-dom";
 

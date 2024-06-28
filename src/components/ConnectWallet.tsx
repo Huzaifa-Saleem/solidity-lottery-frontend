@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Button from "./Button";
 import { useRecoilState } from "recoil";
 import { AccountAtom } from "../atoms";
